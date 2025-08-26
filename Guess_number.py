@@ -9,10 +9,10 @@ def difficolta():
     while True:
         print("Scegli la difficoltà: ")
         Choice = input("FACILE o DIFFICILE? ")
-        if Choice == "FACILE":
+        if Choice.upper() == "FACILE":
             tentativi = 10
             break
-        elif Choice == "DIFFICILE":
+        elif Choice.upper() == "DIFFICILE":
             tentativi = 5
             break
         else:
